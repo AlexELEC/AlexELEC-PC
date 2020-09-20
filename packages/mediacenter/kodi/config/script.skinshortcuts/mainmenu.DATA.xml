@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>music</defaultID>
+		<label>2</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultAudio.png</icon>
+		<thumb />
+		<action>ActivateWindow(Music,files)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>favourites</defaultID>
+		<label>1036</label>
+		<label2 />
+		<icon>special://skin/extras/icons/Favorites.png</icon>
+		<thumb />
+		<action>ActivateWindow(Favourites)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>livetv</defaultID>
+		<label>$SKIN[31502|skin.aeon.nox.silvo|ТВ]</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultAddonPVRClient.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>videos</defaultID>
+		<label>3</label>
+		<label2>Пользовательский ярлык</label2>
+		<icon>special://skin/extras/icons/DefaultVideo.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,Addons,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>programs</defaultID>
+		<label>$SKIN[31957|skin.aeon.nox.silvo|ПРИЛОЖЕНИЯ]</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultAddon.png</icon>
+		<thumb />
+		<action>ActivateWindow(1133)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>13000</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultAddonService.png</icon>
+		<thumb />
+		<action>ActivateWindow(Settings)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>playdisc</defaultID>
+		<label>$SKIN[31958|skin.aeon.nox.silvo|ВОСПРОИЗВЕСТИ ДИСК]</label>
+		<label2 />
+		<icon>special://skin/extras/icons/Disc.png</icon>
+		<thumb />
+		<action>PlayDisc</action>
+		<visible>System.HasMediaDVD</visible>
+	</shortcut>
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>12600</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultAddonWeather.png</icon>
+		<thumb />
+		<action>ActivateWindow(Weather)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>pictures</defaultID>
+		<label>1</label>
+		<label2 />
+		<icon>special://skin/extras/icons/DefaultPicture.png</icon>
+		<thumb />
+		<action>ActivateWindow(Pictures,return)</action>
+	</shortcut>
+</shortcuts>
